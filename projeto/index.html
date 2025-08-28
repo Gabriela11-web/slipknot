@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slipknot Live em São Paulo 2025</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header role="banner">
+        <nav aria-label="Menu principal">
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+                <li><a href="#ingressos">Ingressos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home" role="main">
+        <h1>Slipknot - Live em São Paulo</h1>
+        <p>Prepare-se para a noite mais insana do ano!</p>
+        <img src="Slipknot.jpg" alt="Imagem da banda Slipknot no palco com luzes vermelhas" />
+
+        <section id="informacoes">
+            <h2>📍 Informações do Evento</h2>
+            <ul>
+                <li><strong>Data:</strong> 12 de Outubro de 2025</li>
+                <li><strong>Horário:</strong> Abertura dos portões às 17h, show às 20h</li>
+                <li><strong>Local:</strong> Allianz Parque, São Paulo - SP</li>
+            </ul>
+        </section>
+
+        <section id="acessibilidade" aria-label="Seção de acessibilidade">
+            <h2>♿ Acessibilidade</h2>
+            <ul>
+                <li>Áudio descrição do evento via app e in loco</li>
+                <li>Vídeos com intérprete de Libras</li>
+                <li>Espaços reservados para cadeirantes</li>
+                <li>Mapa tátil disponível</li>
+                <li>Legendas em vídeos de divulgação</li>
+            </ul>
+        </section>
+
+        <section id="ingressos" aria-label="Seção de ingressos">
+            <h2>🎟️ Compre seu ingresso</h2>
+            <a href="https://ingressos.slipknotsp2025.com.br" class="btn-compra">Comprar Ingressos</a>
+        </section>
+
+        <section aria-label="Vídeo de chamada do show">
+            <h2>📽️ Chamada do Evento (com Libras e Legenda)</h2>
+            <video controls>
+                <source src="chamada-slipknot.mp4" type="video/mp4" />
+                <track src="legenda.vtt" kind="subtitles" srclang="pt" label="Português" default>
+                Seu navegador não suporta vídeo.
+            </video>
+            <p><a href="transcricao.txt">Clique aqui para acessar a transcrição completa do vídeo</a></p>
+        </section>
+
+        <section id="integrantes" aria-label="Integrantes da Banda Slipknot">
+            <h2 style="color: #ff0000;">🎸 Conheça os Integrantes do Slipknot</h2>
+            <div class="integrantes-container">
+                <!-- Integrante 1: Corey Taylor -->
+                <div class="integrante">
+                    <img src="corey.jpg" alt="Corey Taylor com máscara do Slipknot" />
+                    <h3>Corey Taylor - Vocais</h3>
+                    <p>Corey Taylor é o vocalista principal do Slipknot. Sua energia única no palco ajudou a banda a se tornar uma lenda no metal.</p>
+                    <p><strong>Curiosidade:</strong> Corey também é vocalista da banda Stone Sour e autor do livro *"Seven Deadly Sins".</p>
+                </div>
+
+                <!-- Integrante 2: Jim Root -->
+                <div class="integrante">
+                    <img src="jim.jpg" alt="Jim Root tocando guitarra no palco" />
+                    <h3>Jim Root - Guitarra</h3>
+                    <p>Jim Root é conhecido por suas riffs pesadas e complexas, sendo fundamental no som único do Slipknot.</p>
+                    <p><strong>Curiosidade:</strong> Jim também é membro da banda Stone Sour e é fã de guitarras Fender.</p>
+                </div>
+
+                <!-- Integrante 3: Shawn Crahan (Clown) -->
+                <div class="integrante">
+                    <img src="shawn.jpg" alt="Shawn Crahan, também conhecido como Clown, no palco" />
+                    <h3>Shawn Crahan - Percussão</h3>
+                    <p>Shawn Crahan, ou "Clown", é um dos fundadores do Slipknot e é responsável pela percussão e parte do visual da banda.</p>
+                    <p><strong>Curiosidade:</strong> Shawn é um fotógrafo e publicou o livro *"The Apocalyptic Nightmare Journey".</p>
+                </div>
+
+                <!-- Integrante 4: Mick Thomson -->
+                <div class="integrante">
+                    <img src="MickThomson.jpg" alt="Mick Thomson com sua guitarra no palco" />
+                    <h3>Mick Thomson - Guitarra</h3>
+                    <p>Mick Thomson é conhecido por sua técnica agressiva e por criar riffs pesados ao lado de Jim Root.</p>
+                    <p><strong>Curiosidade:</strong> Mick é fã de guitarras Jackson e suas performances são intensas e imersivas.</p>
+                </div>
+
+                <!-- Integrante 5: Alessandro "V-Man" Venturella -->
+                <div class="integrante">
+                    <img src="Alessandro-venturella.jpg" alt="Alessandro 'V-Man' Venturella tocando baixo" />
+                    <h3>Alessandro "V-Man" Venturella - Baixo</h3>
+                    <p>Alessandro é o baixista do Slipknot desde 2014 e se destaca pela técnica e presença de palco.</p>
+                    <p><strong>Curiosidade:</strong> V-Man tem uma coleção impressionante de guitarras e baixos vintage e é um fã de tecnologia.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>© 2025 Slipknot Brasil | Site fictício para fins educacionais - Projeto Alura</p>
+    </footer>
+
+    <!-- Botão de contraste -->
+    <button class="contraste-button" onclick="toggleContraste()">Alto Contraste</button>
+
+    <script>
+        function toggleContraste() {
+            document.body.classList.toggle("contraste-alto");
+        }
+    </script>
+</body>
+
+</html>
